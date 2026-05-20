@@ -11,12 +11,14 @@ import Pages from './Pages'
 
 function HW5() {
     return (
+        <div id={'hw5'}>
         <HashRouter>
             {/*в gh-pages лучше работает HashRouter, с BrowserRouter скорее всего не пройдёт тест*/}
             <Layout>
                 <Pages />
             </Layout>
         </HashRouter>
+        </div>
     )
 }
 

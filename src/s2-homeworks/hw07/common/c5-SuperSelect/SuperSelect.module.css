@@ -1,9 +1,29 @@
+/*.select {*/
+/*    width: 130px;*/
+/*    padding: 2px 0 5px 10px;*/
+/*}*/
+
+/*.select:focus {*/
+/*}*/
+
+
+/*.option:hover {*/
+/*}*/
 .select {
+    width: 150px;
+    padding: 6px 10px;
+    border: 1px solid #cfcfcf;
+    border-radius: 6px;
+    background: white;
+    cursor: pointer;
+    font-size: 15px;
 }
 
 .select:focus {
+    border-color: #0066ff;
+    outline: none;
 }
 
-
 .option:hover {
+    background: #e8e8e8;
 }

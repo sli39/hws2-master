@@ -13,7 +13,19 @@ body {
     -moz-osx-font-smoothing: grayscale;
     box-sizing: border-box;
 }
+#hw1,#hw2,#hw3,#hw4,#hw5{
+    width: 1280px;
 
+   /*height: 0;*/
+    margin: 0 auto;
+    padding: 0 70px; /* ← по 70px слева и справа */
+    box-sizing: border-box;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+
+
+}
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

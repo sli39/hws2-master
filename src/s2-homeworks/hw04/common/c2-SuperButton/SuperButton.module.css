@@ -1,36 +1,74 @@
 .button {
+    padding: 5px 24px;
+    font-size: 15px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
+/* отключённая кнопка */
 .disabled {
+    opacity: 0.5;
+    cursor: default;
+    background: #cfcfcf !important;
+    color: #777 !important;
 }
 
+/* Белая кнопка */
 .secondary {
+    background: white;
+    color: #333;
+    border: 1px solid #d2d2d2;
 }
 
+/* Синяя кнопка */
 .default {
+    background: #005bff;
+    color: white;
 }
 
+/* Красная кнопка */
 .red {
+    background: #d20000;
+    color: white;
 }
+
+/* ------------ HOVER ------------ */
 
 .default:hover {
+    background: #0047cc;
 }
 
 .red:hover {
+    background: #b80000;
 }
 
 .secondary:hover {
+    background: #f5f5f5;
 }
 
+/* ------------ ACTIVE ------------ */
 
 .default:active {
+    background: #003bab;
 }
 
 .secondary:active {
+    background: #e8e8e8;
 }
 
 .red:active {
+    background: #9e0000;
 }
 
+/* ------------ DISABLED state ------------ */
+
 .button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
 }

@@ -2,10 +2,35 @@
     --header_height: 60px;
 }
 
-.hw {
+.hw > div:first-of-type {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Инвертируем порядок сообщений */
+.hw > div:first-of-type > *:first-child {
+    order: 2; /* Message (вниз) */
+}
+/* FriendMessage вверх */
+.hw > div:first-of-type > *:last-child {
+    order: 1;
+}
+.hwTitle {
+    font-weight: 600;
+    font-size: 22px;
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+    margin: 130px 0 35px 0;
+    position: relative;
 
 }
 
-.hwTitle {
+.hwTitle::after {
+    content: '';
+    position: absolute;
 
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid #d9d9d9;
 }

@@ -1,6 +1,7 @@
 {
   "name": "hws2",
-  "homepage": "https://github.com/sli39/hws2-master",
+  "homepage": "https://sli39.github.io/hws2-master",
+
   "version": "0.1.0",
   "private": true,
   "dependencies": {
